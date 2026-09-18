@@ -38,6 +38,10 @@ h2 {
     color: var(--primary-color);
 }
 
+section h2 {
+    color: var(--secondary-color);
+}
+
 nav,
 p,
 section,
@@ -52,6 +56,14 @@ article {
 
 .hero {
     position: relative;
+}
+
+.hero article {
+    position: absolute;
+}
+
+.hero article img {
+    float: right;
 }
 
 .hero img {
