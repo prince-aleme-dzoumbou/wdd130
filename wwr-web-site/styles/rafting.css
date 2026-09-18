@@ -1,0 +1,72 @@
+:root {
+    /* Main Colors */
+    --primary-color: #0B5D5E;
+    /* Deep river teal */
+    --secondary-color: #2E8B57;
+    /* Forest green */
+    --accent-color: #000000;
+    /* Adventure orange */
+    --accent-color-2: #168AAD;
+    /* Water blue */
+
+    /* Fonts */
+    --heading-font: "Montserrat", sans-serif;
+    --body-font: "Open Sans", sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--body-font);
+    color: var(--accent-color);
+}
+
+header,
+main,
+footer {
+    width: 840px;
+    margin: auto;
+}
+
+h1,
+h2 {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+}
+
+nav,
+p,
+section,
+article {
+    margin: 16px;
+    padding: 8px;
+}
+
+.socialmedia a {
+    text-decoration: none;
+}
+
+.hero {
+    position: relative;
+}
+
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+h1 {
+    position: absolute;
+    top: 20px;
+    width: 100%;
+    padding: 16px;
+    text-align: center;
+    opacity: 0.7;
+    background-color: var(--accent-color-2);
+    color: #fff;
+}
